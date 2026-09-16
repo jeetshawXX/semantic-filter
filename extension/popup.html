@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Semantic Filter</title>
+
+    <link rel="stylesheet" href="popup.css">
+
+</head>
+
+<body>
+
+    <h2>Semantic Filter</h2>
+
+    <input
+        id="tagInput"
+        type="text"
+        placeholder="Enter tag"
+    >
+    <button id="addBtn">
+        Add
+    </button>
+    <hr>
+
+        <h3>Blocked Channels</h3>
+
+        <input
+            id="channelInput"
+            type="text"
+            placeholder="Block channel"
+        >
+
+        <button id="addChannelBtn">
+            Add
+        </button>
+
+        <div id="channelList"></div>
+
+        <hr>
+
+<h3>Blocked Keywords</h3>
+
+<input
+    id="keywordInput"
+    type="text"
+    placeholder="Block keyword"
+>
+
+<button id="addKeywordBtn">
+    Add
+</button>
+
+<div id="keywordList"></div>
+
+    <div id="tagList"></div>
+
+    <script src="popup.js"></script>
+
+</body>
+</html>

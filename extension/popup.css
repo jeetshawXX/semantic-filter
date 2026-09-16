@@ -1,0 +1,91 @@
+body {
+
+    width: 300px;
+
+    padding: 15px;
+
+    background: #111;
+
+    color: white;
+
+    font-family: sans-serif;
+}
+
+input {
+
+    width: 180px;
+
+    padding: 8px;
+}
+
+button {
+
+    padding: 8px;
+
+    cursor: pointer;
+}
+
+.tag {
+
+    background: #333;
+
+    padding: 8px;
+
+    margin-top: 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.remove {
+
+    color: red;
+
+    cursor: pointer;
+}
+hr {
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+    border: 1px solid #333;
+}
+
+h3 {
+
+    margin-top: 10px;
+}
+
+.channel {
+
+    background: #222;
+
+    padding: 8px;
+
+    margin-top: 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.keyword {
+
+    background: #2a2a2a;
+
+    padding: 8px;
+
+    margin-top: 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
